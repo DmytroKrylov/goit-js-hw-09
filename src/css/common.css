@@ -16,3 +16,47 @@ img {
   display: block;
   max-width: 100%;
 }
+
+Оформлення текстового поля #datetime-picker {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Оформлення кнопки "Start" */
+button[data-start] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button[data-start]:hover {
+  background-color: #45a049;
+}
+
+/* Оформлення контейнера таймера */
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Оформлення полів таймера */
+.field {
+  text-align: center;
+  margin: 0 10px;
+}
+
+/* Оформлення значень таймера */
+.value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Оформлення міток таймера */
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #777;
+}
