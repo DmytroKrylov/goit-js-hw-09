@@ -22,19 +22,6 @@ img {
   border: 1px solid #ccc;
 }
 
-/* Оформлення кнопки "Start" */
-button[data-start] {
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-button[data-start]:hover {
-  background-color: #45a049;
-}
-
 /* Оформлення контейнера таймера */
 .timer {
   display: flex;
