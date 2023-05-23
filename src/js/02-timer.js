@@ -37,6 +37,12 @@ document
 // Функція запуску таймера
 function startTimer(countdown) {
   const timerElement = document.querySelector('.timer');
+  const startButton = document.querySelector('button[data-start]');
+  const dateTimePicker = document.querySelector('#datetime-picker');
+
+  // Вимикаю button and input
+  startButton.disabled = true;
+  dateTimePicker.disabled = true;
 
   function updateTimer() {
     countdown -= 1000;
@@ -55,6 +61,7 @@ function startTimer(countdown) {
   updateTimer();
   const timerInterval = setInterval(updateTimer, 1000);
 }
+
 
 // Функція рендерингу таймера
 function renderTimer(days, hours, minutes, seconds) {
